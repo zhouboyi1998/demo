@@ -16,9 +16,8 @@ public class QuickSortTest {
     @Test
     public void test() {
         int[] array = {64, 34, 25, 12, 22, 11, 90};
-        int start = 0;
-        int end = array.length - 1;
-        QuickSort.sort(array, start, end);
+        Sort sort = new QuickSort();
+        sort.sort(array);
         Arrays.stream(array).forEach(item -> System.out.print(item + " "));
     }
 }

@@ -7,9 +7,10 @@ package com.cafe.sort;
  * @Date: 2024/10/18 14:53
  * @Description: 希尔排序
  */
-public class ShellSort {
+public class ShellSort implements Sort {
 
-    public static void sort(int[] array) {
+    @Override
+    public void sort(int[] array) {
         int length = array.length;
         for (int gap = length / 2; gap > 0; gap /= 2) {
             for (int i = gap; i < length; i++) {

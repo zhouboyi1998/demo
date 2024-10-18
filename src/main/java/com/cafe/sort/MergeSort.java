@@ -7,9 +7,14 @@ package com.cafe.sort;
  * @Date: 2024/10/17 22:47
  * @Description: 归并排序
  */
-public class MergeSort {
+public class MergeSort implements Sort {
 
-    public static void sort(int[] array, int left, int right) {
+    @Override
+    public void sort(int[] array) {
+        sort(array, 0, array.length - 1);
+    }
+
+    private void sort(int[] array, int left, int right) {
         if (left >= right) {
             return;
         }
@@ -24,7 +29,7 @@ public class MergeSort {
         merge(array, left, mid, right);
     }
 
-    private static void merge(int[] array, int left, int mid, int right) {
+    private void merge(int[] array, int left, int mid, int right) {
         // 使用临时数组存储排序结果
         int[] temp = new int[right - left + 1];
 

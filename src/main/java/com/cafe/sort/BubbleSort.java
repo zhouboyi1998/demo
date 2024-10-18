@@ -7,9 +7,10 @@ package com.cafe.sort;
  * @Date: 2024/10/17 18:00
  * @Description: 冒泡排序
  */
-public class BubbleSort {
+public class BubbleSort implements Sort {
 
-    public static void sort(int[] array) {
+    @Override
+    public void sort(int[] array) {
         int length = array.length;
         for (int i = 0; i < length - 1; i++) {
             // 标记本轮遍历中, 是否发生过交换
