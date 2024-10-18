@@ -16,7 +16,8 @@ public class ShellSortTest {
     @Test
     public void test() {
         int[] array = {64, 34, 25, 12, 22, 11, 90};
-        ShellSort.sort(array);
+        Sort sort = new ShellSort();
+        sort.sort(array);
         Arrays.stream(array).forEach(item -> System.out.print(item + " "));
     }
 }

@@ -16,7 +16,8 @@ public class HeapSortTest {
     @Test
     public void test() {
         int[] array = {64, 34, 25, 12, 22, 11, 90};
-        HeapSort.sort(array);
+        Sort sort = new HeapSort();
+        sort.sort(array);
         Arrays.stream(array).forEach(item -> System.out.print(item + " "));
     }
 }

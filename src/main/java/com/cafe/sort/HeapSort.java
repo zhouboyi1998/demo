@@ -7,9 +7,10 @@ package com.cafe.sort;
  * @Date: 2024/10/18 10:03
  * @Description: 堆排序 (大根堆, 升序)
  */
-public class HeapSort {
+public class HeapSort implements Sort {
 
-    public static void sort(int[] array) {
+    @Override
+    public void sort(int[] array) {
         int length = array.length;
 
         // 构建初始堆 (第一轮遍历, 找出整个数组的最大值, 移动到根节点)
@@ -29,7 +30,7 @@ public class HeapSort {
         }
     }
 
-    public static void maxHeapify(int[] array, int size, int root) {
+    private void maxHeapify(int[] array, int size, int root) {
         // 存储根节点、左子节点、右子节点三者中最大值的下标
         int max = root;
         // 左子节点的下标

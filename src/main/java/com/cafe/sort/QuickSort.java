@@ -7,9 +7,14 @@ package com.cafe.sort;
  * @Date: 2024/10/17 21:13
  * @Description: 快速排序
  */
-public class QuickSort {
+public class QuickSort implements Sort {
 
-    public static void sort(int[] array, int start, int end) {
+    @Override
+    public void sort(int[] array) {
+        sort(array, 0, array.length - 1);
+    }
+
+    private void sort(int[] array, int start, int end) {
         // 使用左右指针遍历当前数组
         int left = start;
         int right = end;
