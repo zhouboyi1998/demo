@@ -1,6 +1,6 @@
 package com.cafe.base.singleton;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -19,7 +19,7 @@ public class Singleton1Test {
     private static final Random RANDOM = new Random();
 
     @Test
-    public void test() {
+    void test() {
         // 创建一个线程数为 10 的线程池
         ThreadPoolExecutor executor = new ThreadPoolExecutor(
             10, 10,

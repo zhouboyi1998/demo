@@ -1,6 +1,6 @@
 package com.cafe.sort;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
@@ -14,7 +14,7 @@ import java.util.Arrays;
 public class SelectionSortTest {
 
     @Test
-    public void test() {
+    void test() {
         int[] array = {64, 34, 25, 12, 22, 11, 90};
         Sort sort = new SelectionSort();
         sort.sort(array);
