@@ -1,11 +1,11 @@
-package com.cafe.base.singleton.error.case1;
+package com.cafe.base.singleton.error;
 
 /**
  * @Project: demo
- * @Package: com.cafe.base.singleton.case1
+ * @Package: com.cafe.base.singleton.error
  * @Author: zhouboyi
  * @Date: 2024/8/11 16:18
- * @Description: 错误示例: 单例模式 (懒汉式, 不加锁)
+ * @Description: 单例模式错误示例 (懒汉式单例不加锁)
  */
 public class SingletonErrorCase1 {
 
