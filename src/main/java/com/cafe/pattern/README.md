@@ -52,7 +52,7 @@
 
 #### 状态模式 State Pattern
 
-#### 策略模式 Strategy Pattern
+#### [策略模式 Strategy Pattern](./strategy/README.md)
 
 #### 模板方法模式 Template Method Pattern
 
