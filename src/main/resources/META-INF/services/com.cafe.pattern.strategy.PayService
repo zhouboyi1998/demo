@@ -1,0 +1,3 @@
+com.cafe.pattern.strategy.AliPayServiceImpl
+com.cafe.pattern.strategy.WeChatPayServiceImpl
+com.cafe.pattern.strategy.BandCardPayServiceImpl
