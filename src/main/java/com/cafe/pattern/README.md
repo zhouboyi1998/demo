@@ -50,7 +50,7 @@
 
 #### 观察者模式 Observer Pattern
 
-#### 状态模式 State Pattern
+#### [状态模式 State Pattern](./state/README.md)
 
 #### [策略模式 Strategy Pattern](./strategy/README.md)
 
