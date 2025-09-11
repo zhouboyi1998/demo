@@ -4,7 +4,7 @@
 
 <h3 align="center">创建型 Creational</h3>
 
-#### [单例模式 Singleton Pattern](./singleton/README.md)
+#### [单例模式 Singleton Pattern](singleton/README.md)
 
 #### 原型模式 Prototype Pattern
 
@@ -18,19 +18,19 @@
 
 <h3 align="center">结构型 Structural</h3>
 
-#### [适配器模式 Adapter Pattern](./adapter/README.md)
+#### [适配器模式 Adapter Pattern](adapter/README.md)
 
 #### 桥接模式 Bridge Pattern
 
 #### 组合模式 Composite Pattern
 
-#### [装饰器模式 Decorator Pattern](./decorator/README.md)
+#### [装饰器模式 Decorator Pattern](decorator/README.md)
 
 #### 外观模式 Facade Pattern
 
 #### 享元模式 Flyweight Pattern
 
-#### [代理模式 Proxy Pattern](./proxy/README.md)
+#### [代理模式 Proxy Pattern](proxy/README.md)
 
 ---
 
@@ -50,9 +50,9 @@
 
 #### 观察者模式 Observer Pattern
 
-#### [状态模式 State Pattern](./state/README.md)
+#### [状态模式 State Pattern](state/README.md)
 
-#### [策略模式 Strategy Pattern](./strategy/README.md)
+#### [策略模式 Strategy Pattern](strategy/README.md)
 
 #### 模板方法模式 Template Method Pattern
 
